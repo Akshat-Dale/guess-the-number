@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GuessNumber</string>
+    <string name="play">Enter the number to play .</string>
+</resources>
