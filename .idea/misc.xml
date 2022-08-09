@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/drawable/cusotm_button.xml" value="0.142" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/drawable/custom_textview.xml" value="0.142" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/drawable/splash_background.xml" value="0.1485" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/layout/activity_splash_screen.xml" value="0.15729166666666666" />
       </map>
     </option>
   </component>
