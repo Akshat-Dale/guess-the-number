@@ -19,7 +19,11 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
     MediaPlayer mediaPlayer1;
     int randomNumber;
+    int count=0;
     String output;
+    TextView textView3;
+    TextView textView4;
+
 
 
     public void reStart(View view2){
@@ -30,13 +34,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void generateRandom(){
-
+       count = 0;
         Random random = new Random();
         randomNumber = random.nextInt(100)+1;
     }
     public void guessNumber(View view){
 //        Log.i("info","button pressed");
-
+        count++;
         EditText editText = findViewById(R.id.editTextNumber);
 
             String inputNumber = editText.getText().toString();
@@ -54,11 +58,14 @@ public class MainActivity extends AppCompatActivity {
             }
             else {
                 output = "You Guessed Correct Number !";
+                textView4.setText("You guess the number in "+String.valueOf(count)+ " guesses");
                 mediaPlayer.start();
                 generateRandom();
             }
-            Toast.makeText(this, output, Toast.LENGTH_LONG).show();
+            textView3.setText(output);
 
+//            Toast.makeText(this, output, Toast.LENGTH_LONG).show();
+            Log.i("Count", String.valueOf(count));
 
 
     }
@@ -71,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
 
         mediaPlayer = MediaPlayer.create(this,R.raw.winsound);
        mediaPlayer1 = MediaPlayer.create(this,R.raw.wrongsound);
-
+        textView3 = findViewById(R.id.textView3);
+        textView4 = findViewById(R.id.textView4);
 
 
 

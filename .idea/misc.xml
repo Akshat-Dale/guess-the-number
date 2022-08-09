@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/drawable/cusotm_button.xml" value="0.142" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/drawable/custom_textview.xml" value="0.142" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/GuessNumber/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
